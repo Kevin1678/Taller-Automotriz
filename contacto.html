@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Servicio Automotriz Hernández</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Servicio Automotriz Hernández</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="cotizaciones.html">Cotizaciones</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="citas.html">Agendar Cita</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Contacto</h2>
+        <p>Estamos ubicados en Av. Principal #123, Ciudad, Estado.</p>
+        <p>Teléfono: (123) 456-7890</p>
+        <p>Correo electrónico: contacto@serviciohernandez.com</p>
+
+        <h3>Formulario de Contacto</h3>
+        <form id="formulario-contacto" action="procesar_contacto.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section>
+        <h3>Ubicación</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3365.371335387086!2d-117.08559569999998!3d32.4895029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94a0483a3dd69%3A0x5a1b847482d370d2!2sServicio%20automotriz%20Hernandez!5e0!3m2!1ses!2smx!4v1742322297061!5m2!1ses!2smx" 
+        width="100%" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy"
+         referrerpolicy="no-referrer-when-downgrade"
+         
+        ></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Servicio Automotriz Hernández. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
