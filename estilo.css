@@ -45,23 +45,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #333;
-    padding: 10px;
-}
-
-.header img {
-    width: 0%; /* Ajusta el tamaño */
-    height: auto;
-    margin-right: 15px;
-}
-
-.header h1 {
-    color: white;
-    font-size: 24px;
-    margin: 0;
-}
