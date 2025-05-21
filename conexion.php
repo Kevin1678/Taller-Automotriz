@@ -2,7 +2,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $contrasena = "";
-$basedatos = "taller_mecanico";
+$basedatos = "servicio_automotriz";
 
 $conexion = new mysqli($servidor, $usuario, $contrasena, $basedatos);
 
